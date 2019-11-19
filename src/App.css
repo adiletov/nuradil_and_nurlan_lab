@@ -1,7 +1,22 @@
+.root{
+    position: relative;
+}
 .App {
+    border: 2px solid #cccccc;
+    border-radius: 10px;
+    padding: 20px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
   text-align: center;
 }
-
+.btn{
+    height: 30px;
+    width: 80%;
+    border-radius: 10px;
+    border: 2px solid #cccccc;
+    background: red;
+}
 .App-logo {
   height: 40vmin;
 }
@@ -19,4 +34,21 @@
 
 .App-link {
   color: #09d3ac;
+}
+.card{
+  vertical-align: top;
+}
+.playingCards{
+  display: flex;
+}
+.result{
+    border-radius: 20px;
+    height: 40px;
+    border: 2px solid #cccccc;
+    background: darkred;
+    padding: 30px 60px;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #cccccc;
 }
